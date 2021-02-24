@@ -1,0 +1,20 @@
+{
+  "name": "@beardedtim/ctx",
+  "version": "0.0.0",
+  "description": "A way to keep shared context for the current execution context",
+  "main": "lib/index.js",
+  "author": "Tim Roberts <timiroberts@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "ava",
+    "example": "npx nodemon example.js"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "express": "^4.17.1"
+  },
+  "dependencies": {
+    "ramda": "^0.27.1"
+  }
+}
